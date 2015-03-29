@@ -1,3 +1,3 @@
-class sphinx {
+class wbsphinx {
     notify {"Sphinx worked!":}
 }
