@@ -9,10 +9,4 @@ Vagrant.configure(2) do |config|
   # bug in hostmanager? need to specify these here too
   config.hostmanager.enabled = true
   config.hostmanager.manage_host = true
-
-  config.vm.provision "puppet" do |puppet|
-    puppet.manifests_path = "puppet"
-    puppet.manifest_file = "default.pp"
-    puppet.module_path = "modules"
-  end
 end
